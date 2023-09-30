@@ -1,0 +1,236 @@
+.body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+
+.banner{
+	width:100%;
+	height: 80vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(web.jpg);
+	background-position: center;
+}
+
+.navbar{
+	width:85%;
+	margin: 0 auto;
+	padding: -16px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px 0;
+}
+.logo{
+	width: 150px;
+	cursor: pointer;
+}
+.icon{
+	width:45px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 60px;
+	position: relative;
+	transition: 0.5s;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.navbar ul li:after{
+	content:'';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{
+	width:100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	transform: translateY(-45%);
+	text-align: center;
+	color: white;
+}
+.content h2{
+	font-size: 40px;
+	font-weight: 400;
+	color:white;
+	margin-top: 25px;
+	line-height: 70px;
+
+}
+.content h1{
+	margin: 20px auto;
+	font-weight: 700;
+	font-size:52px;
+	color: white;
+	line-height: 25px;
+}
+button{
+	width: 20%;
+	font-size: 25px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border: none;
+}
+.box{
+	 font-size: 22px;
+    font-weight: 500;
+   margin-top: 500px;
+    text-align: center;
+   }
+    .box a{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin: 0 133px;
+    color: white;
+}
+.social{
+	width: 10%;
+	float: left;
+	 margin: 0 auto;
+    padding: -16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social img{
+
+	width:100%;
+	margin: 0 40px;
+	
+	
+
+}
+/*col start*/
+/*.card{
+	padding-bottom: 20px;
+}
+.card_1{
+	width: 363px;
+	height: 230px;
+	margin-bottom: 30px 0;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(dip.jpg);
+	background-size: 80%;
+	float: left;
+	background-position: center;
+	
+}
+.card_2{
+	width: 363px;
+	height: 230px;
+	margin-bottom: 30px 0;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(fic.jpg);
+	background-size: 80%;
+	float: left;
+	background-position: center;
+
+}
+.card_3{
+	width: 363px;
+	height: 230px;
+	margin-bottom: 30px 0;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(d.jpg);
+	background-size: 80%;
+	float: left;
+	background-position: center;}
+.card_4{
+	width: 363px;
+	height: 230px;
+	margin-bottom: 30px 0;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(e.jpg);
+	background-size: 80%;
+	float: left;
+	background-position: center;}
+/**/
+.card h2{
+font-size: 40px;
+font-weight: 700;
+color: yellow;
+width: 100%;
+margin-top:-18px;
+}
+.card p{
+font-size: 16px;
+font-weight: 500;
+color: white;
+width: 100%;
+}*/
+/*col end*/
+/*footer start*/
+.f_container{
+	text-align: center;
+}
+	.f_container p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	
+}
+.f_container span{
+	font-weight: 400;
+
+
